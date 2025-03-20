@@ -248,25 +248,30 @@ export default function Home() {
           filter.map((element, index) => (
             <div
               key={index}
-              className={` shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] p-5 mb-10 flex flex-col bg-white border-3 border-solid border-pink-600 gap-5 rounded-xl 
+              className={` shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] p-5 mb-10 flex flex-col border-3 border-solid border-pink-600 gap-5 rounded-xl 
               transition-all duration-500 ease-in-out transform hover:scale-105 active:scale-95
-              ${isColumn ? "w-196 mx-auto w-x-400  flex-row" : "w-fit"}`}
+              ${isColumn ? "w-196 mx-auto w-x-400  flex-row" : "w-96"}`}
             >
               <img
                 src={element.image}
-                className={`rounded-lg border-2 border-solid border-pink-500 
+                className={`rounded-lg 
                 transition-all duration-500 ease-in-out
+                ${isColumn ? "w-80 h-40 h-60 object-cover" : "w-80 h-40"}`}
+              />
+              <img
+                src={element.image}
+                className={`absolute inset-0 w-full h-full object-cover opacity-30 blur-md rounded-lg
                 ${isColumn ? "w-80 h-40 h-60 object-cover" : "w-80 h-40"}`}
               />
               <div>
                 <div className="flex flex-row justify-evenly pb-2">
-                  <p className="text-2xl text-black">{element.firstname}</p>
-                  <p className="text-2xl text-black">{element.lastname}</p>
+                  <p className="text-2xl text-white">{element.firstname}</p>
+                  <p className="text-2xl text-white">{element.lastname}</p>
                 </div>
-                <p className="text-2xl text-black">{element.job}</p>
-                <div className="text-2xl text-black flex gap-2">
-                <div className="font-bold text-gray-700">Items:</div>
-                <p className="text-2xl text-gray-700">{element.items}</p>
+                <p className="text-2xl text-white">{element.job}</p>
+                <div className="text-2xl text-white flex gap-2">
+                <div className="font-bold text-gray-400">Items:</div>
+                <p className="text-2xl text-gray-400">{element.items}</p>
               </div>
               </div>
 
