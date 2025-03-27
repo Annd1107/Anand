@@ -270,13 +270,13 @@ export default function Home() {
             <div
               key={index}
               className={`relative shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] p-5 mb-10 flex flex-col border-3 border-solid border-pink-600 gap-5 rounded-xl 
-                transition-all duration-500 ease-in-out transform hover:scale-105 active:scale-95 group
+                 transform hover:scale-105 active:scale-95 group
                 ${isColumn ? "w-196 mx-auto w-x-400 flex-row" : "w-96"}`}
             >
               <img
                 src={element.image}
                 className={`rounded-lg 
-                transition-all duration-500 ease-in-out
+                
                 ${isColumn ? "w-80 h-40 h-60 object-cover" : "w-80 h-40"}`}
               />
               <img
@@ -309,7 +309,7 @@ export default function Home() {
                 
               </div>
               <div className="font-bold text-xl text-white">Items:</div>
-                  <p className="text-2xl text-gray-400">  -{element.items}</p>
+                  <p className="text-2xl text-gray-400">  {element.items}</p>
                   
                 </div>
                 </div>
