@@ -7,6 +7,7 @@ const dataB = [
     lastname: "Soyol-Erdene",
     job: "CEO of Google",
     height: 210,
+    age:21,
     image: "https://www.dreamhouseapartments.com/wp-content/uploads/2014/09/Big-Ben-and-The-Palace-of-Westminster-600x300.jpg",
     items: "iPhone XX , Rolls-Royce"
   },
@@ -17,6 +18,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 183,
+    age:16,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyFY0JoSuVI0bxSaa5euyo-m0398lyeSeVFA&s",
     items: "Computer , Smartphone"
   },
@@ -27,6 +29,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 178,
+    age:16,
     image: "https://earthlab.ucsc.edu/files/2022/08/performance-ecosex-walk-tour-4-24-22-600x300.jpg",
     items: "iWatch , Smartphone"
   },
@@ -37,6 +40,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 181,
+    age:16,
     image: "https://media.4-paws.org/f/7/f/8/f7f83b15e9053a291277a350ce735fccf54b85e2/Kaninchen%20im%20Freigehege%20%282%29-4608x2303-600x300.jpg",
     items: "Computer , Airpods"
   },
@@ -47,6 +51,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 175,
+    age:16,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbd8IQj0Eh-1SEZYQUsGC4zVvQK97QaUoYw&s",
     items: "Notebook , Smartphone"
   },
@@ -57,6 +62,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 171,
+    age:16,
     image: "https://media.4-paws.org/a/f/1/e/af1e8ffc278258492c580ef1a4d574cb8e0c6035/Molly_006-2829x1886-2829x1414-600x300.jpg",
     items: "Computer , Smartphone"
   },
@@ -67,6 +73,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 173,
+    age:16,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgSFHiaMVVrAdET9rnd3TIVOM2ljy7MQP2rw&s",
     items: "Laptop , Watch"
   },
@@ -77,6 +84,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 174,
+    age:16,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwPkF-_6n7Gky8nxIBYBfaC7TnTwtLzRaT1g&s",
     items: "Computer , Ring"
   },
@@ -87,6 +95,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 167,
+    age:16,
     image: "https://www.1zoom.me/prev/323/322504.jpg",
     items: "Smartphone"
     
@@ -98,7 +107,8 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 173,
-    image: "https://changegl.co.uk/wp-content/uploads/2017/12/600x300.png",
+    age:16,
+    image: "https://www.1zoom.me/prev/247/246508.jpg",
     items: "Smartphone , Glasses"
   },
   {
@@ -108,7 +118,8 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 165,
-    image: "https://www.irational.org/APD/cyber/600x300.gif",
+    age:16,
+    image: "https://www.dreamhouseapartments.com/wp-content/uploads/2014/09/Big-Ben-and-The-Palace-of-Westminster-600x300.jpg",
     items: "Smartphone , Bicycyle"
   },
   {
@@ -118,6 +129,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 177,
+    age:16,
     image: "https://www.croatiaairlines.com/resources/fotke/zabranjeni-predmeti.png",
     items: "Smartphone , Scooter"
   },
@@ -128,6 +140,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 178,
+    age:16,
     image: "https://hdri-skies.com/wp-content/uploads/2025/02/thumb-hdri_sky_925-600x300.jpg",
     items: "Smartphone , Notebook"
   },
@@ -138,6 +151,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 181,
+    age:16,
     image: "https://www.holts.com/clubhouse/sites/default/files/teaserimage-Cigars-in-Casinos-600x300.png",
     items: "Smartphone , Bicycle"
   },
@@ -148,6 +162,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 170,
+    age:16,
     image: "https://durhamcollege.ca/wp-content/uploads/library-1200x600-1-600x300.jpg",
     items: "Smartphone , Notebook"
   },
@@ -158,6 +173,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 163,
+    age:17,
     image: "https://www.croatiaairlines.com/resources/Destinacijeije/spu/SPU-600x300-istock.jpeg",
     items: "Smartphone , Bracelet"
   },
@@ -168,6 +184,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 160,
+    age:16,
     image: "https://www.montereyboats.com/zupload/library/32704/-74879-600x300-1.jpg?ztv=20250204105510",
     items: "Smartphone , Charger"
   },
@@ -178,6 +195,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 173,
+    age:16,
     image: "https://sf-static.sixflags.com/wp-content/uploads/Kangaroo-600x300-1.jpg",
     items: "Notebook , Surron"
   },
@@ -188,6 +206,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 161,
+    age:17,
     image: "https://www.rspcasa.org.au/wp-content/uploads/2019/02/Donate-items-mobile-banner-600x300-fit-constrain-q70-mobile_banner_image.jpg",
     items: "Contik , Tymbark"
   },
@@ -198,6 +217,7 @@ const dataB = [
     job: "Student",
     alive: true,
     height: 166,
+    age:17,
     image: "https://environment.leeds.ac.uk/images/resized/600x300-0-0-1-80-800x400_train.jpg",
     items: "Smartphone , Helmet"
   },
@@ -207,6 +227,7 @@ const dataB = [
     lastname: "Tsengel",
     job: "Student",
     height: 161,
+    age:16,
     image: "https://www.montereyboats.com/zupload/library/32705/-74884-600x300-1.png?ztv=20250213174450",
     items: "Smartphone , Notebook"
   },
@@ -248,9 +269,9 @@ export default function Home() {
           filter.map((element, index) => (
             <div
               key={index}
-              className={` shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] p-5 mb-10 flex flex-col border-3 border-solid border-pink-600 gap-5 rounded-xl 
-              transition-all duration-500 ease-in-out transform hover:scale-105 active:scale-95
-              ${isColumn ? "w-196 mx-auto w-x-400  flex-row" : "w-96"}`}
+              className={`relative shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] p-5 mb-10 flex flex-col border-3 border-solid border-pink-600 gap-5 rounded-xl 
+                transition-all duration-500 ease-in-out transform hover:scale-105 active:scale-95 group
+                ${isColumn ? "w-196 mx-auto w-x-400 flex-row" : "w-96"}`}
             >
               <img
                 src={element.image}
@@ -271,10 +292,27 @@ export default function Home() {
                 <p className="text-2xl text-white">{element.job}</p>
                 <div className="text-2xl text-white flex gap-2">
                 <div className="font-bold text-gray-400">Items:</div>
-                <p className="text-2xl text-gray-400">{element.items}</p>
+                  <p className="text-2xl text-gray-400">{element.items}</p>
+                </div>
+                
               </div>
+              <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-90 rounded-lg">
+              <div>
+                <div className="flex flex-row justify-evenly pb-2">
+                  <p className="text-2xl text-white">{element.firstname}</p>
+                  <p className="text-2xl text-white">{element.lastname}</p>
+                </div>
+                <p className="text-2xl text-white">{element.job}</p>
+                <div className="text-2xl text-white flex gap-2">
+                <p className="text-xl">Age: {element.age}</p>
+                  <p className="text-xl">Height: {element.height} cm</p>
+                
               </div>
-
+              <div className="font-bold text-xl text-white">Items:</div>
+                  <p className="text-2xl text-gray-400">  -{element.items}</p>
+                  
+                </div>
+                </div>
             </div>
           ))
         ) : (
